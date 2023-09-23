@@ -77,6 +77,11 @@ API_ENUM(Namespace="FlaxEditor", Attributes="HideInEditor") enum class CodeEdito
     /// </summary>
     Rider,
 
+    /// <summary>
+    /// Neovide
+    /// </summary>
+    Neovide,
+
     MAX
 };
 

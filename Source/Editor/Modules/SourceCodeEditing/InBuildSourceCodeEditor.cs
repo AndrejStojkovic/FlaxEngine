@@ -63,6 +63,9 @@ namespace FlaxEditor.Modules.SourceCodeEditing
             case CodeEditorTypes.Rider:
                 Name = "Rider";
                 break;
+            case CodeEditorTypes.Neovide:
+                Name = "Neovide";
+                break;
             default: throw new ArgumentOutOfRangeException(nameof(type), type, null);
             }
         }
